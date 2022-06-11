@@ -1,0 +1,9 @@
+.active{
+   
+    background-color: red;
+    }
+    .nav-link{
+        display: inline-block;
+        border-radius: 10px;
+       
+    }

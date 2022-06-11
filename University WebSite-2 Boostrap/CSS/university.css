@@ -1,0 +1,28 @@
+.active{
+   
+    background-color: red;
+    }
+    .nav-link{
+        display: inline-block;
+        border-radius: 10px;
+        
+    }
+    .non_visible_text {
+        display: none;
+      }
+      
+      .non_visible_text:target {
+        display: inline;
+      }
+      
+      .non_visible_text:target + .visible_text {
+        display: none;
+      }
+    
+    .devaminioku{
+       text-decoration: none;
+       color: blue;
+    }
+    .devaminioku:visited{
+        visibility: hidden;
+    }

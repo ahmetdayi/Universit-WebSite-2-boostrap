@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href=".\CSS\students.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div  class="container" >
+        <img id="logo" src=".\picture\estunav.png" alt="estuImage" style="height: 10%; width:38%;">
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+
+                <nav class="navbar navbar-expand-lg bg-light ">
+                    <div class="container-fluid ">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav  flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="University.html" target="_blank">University</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Academics.html" target="_blank">Academics</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Research.html" target="_blank">Research</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="CampusLife.html" target="_blank">Campus Life</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="Students.html"
+                                        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Students
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="Students.html">Students</a></li>
+                                        <li><a class="dropdown-item" href="StudentLogin.html">Login</a></li>
+                                        <li><a class="dropdown-item" href="Documents.html">Documents</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+
+
+            <div class="col-8">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Login</h4>
+                            <hr>
+                        </div>
+                        <div class="card-tex">
+                            <div class="container">
+
+
+                                <form action="home.html" class="was-validated">
+                                    <div class="form-group">
+                                        <label for="Username">Username</label>
+                                        <input type="text" class="form-control" id="Username" name="Username" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Password">Password</label>
+                                        <input type="password" class="form-control" id="Password" name="Password "
+                                            required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Sign In</button>
+                                </form><br>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+      
+    </div>
+
+    <footer>
+        <p><b>&copy 2021 All Rights Reserved</b></p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

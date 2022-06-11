@@ -1,0 +1,25 @@
+.active{
+   
+    background-color: red;
+    }
+    .nav-link{
+        display: inline-block;
+        border-radius: 10px;
+       
+    }
+    .link a{
+        text-decoration: none;
+        color: red;
+
+    }
+    .card-body{
+        background-color: #dfdfdfdf;
+    }
+    footer{
+        text-align: center;
+        
+    }
+    footer p,a{
+        color:rgb(0, 204, 255);
+    
+    }
